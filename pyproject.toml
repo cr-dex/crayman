@@ -4,14 +4,25 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crayman"
-version = "3.2.0"
-description = "CRGUI Library"
-authors = [
-    { name = "cr-dex" }
-]
+version = "3.3"
+description = "manager your decorations + inputs, outputs, version code and extra arg"
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = []
+authors = [
+    { name = "crdexxx", email = "aymanambaby250@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "python-cfonts",
+    "colorama",
+    "rich",
+    "pystyle",
+    "autopep8",
+    "termcolor",
+    "wcwidth"
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
